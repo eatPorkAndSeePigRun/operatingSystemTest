@@ -72,6 +72,8 @@ void main (int argc, char *argv[]) {
 }
 ```
 
+![image1.png](../resource/pic/test3/image1.png)
+
 **2.进程通信的系统调用**
 >**1)pipe系统调用**
 格式： `int pipe (filedes)`
@@ -118,6 +120,8 @@ int main () {
 }
 ```
 
+![image2.png](../resource/pic/test3/image2.png)
+
 -----
 
 ## 四、实验程序
@@ -145,6 +149,8 @@ int main () {
     return 0;
 }
 ```
+
+![image3.png](../resource/pic/test3/image3.png)
 
 **2、进程的管道通信**
 ```
@@ -208,11 +214,13 @@ int main() {
 }
 ```
 
+![image4.png](../resource/pic/test3/image4.png)
+
 -----
 
 ## 五、实验报告要求
-1．记录输入LINUX相关命令后系统输出。
-2．记录C程序，进行编译运行和调试。
-3．分析运行结果。
-4．体会
+
+* 问题：在程序运行中，程序一经调用就完成，不好体会系统调用。
+
+* 方法：改用 gdb 进行单步调试，并在 gdb 中使用 shell ps 命令等进行加深理解进程等概念。 
 
