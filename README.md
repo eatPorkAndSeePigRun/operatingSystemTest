@@ -13,8 +13,10 @@
 `-- src             // 源代码
 ```
 
-[实验一　环境及基本操作实验](./doc/test1.md)
+[实验一  环境及基本操作实验](./doc/test1.md)
 
-[实验二　命令解释程序的使用](./doc/test2.md)
+[实验二  命令解释程序的使用](./doc/test2.md)
 
 [实验三  进程管理实验](./doc/test3.md)
+
+[其他：线程间同步](./doc/process_synchronization.md)
