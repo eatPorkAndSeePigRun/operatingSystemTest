@@ -19,4 +19,6 @@
 
 [实验三  进程管理实验](./doc/test3.md)
 
+[实验五  文件系统实验](./doc/test5.md)
+
 [其他：线程间同步](./doc/process_synchronization.md)
