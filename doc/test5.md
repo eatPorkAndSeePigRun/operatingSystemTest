@@ -100,7 +100,7 @@
 ><1>用`umask`命令显示当前的掩码。
 <2>在`~/temp/d1`目录下，创建`d11`目录，用`touch`命令创建`f2`空文件。
 <3>在`temp`目录下用编辑器创建`hello.c`文件，该文件的内容如下：
-```
+```c
 #include <stdio.h>
 main (void) {
     printf(“Hello, world!\n”);

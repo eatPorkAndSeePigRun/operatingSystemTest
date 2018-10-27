@@ -53,7 +53,7 @@ pthread_self()          // 得到当前线程id
 ### 3.经典进程同步问题
 
 - (1) 生产者-消费者问题
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -117,7 +117,7 @@ int main () {
     - 仅当哲学家的左、右两只筷子均可用时，才允许他拿起筷子进餐。
     - 规定奇数号哲学家先拿他左边的筷子，然后再去拿右边的筷子：而偶数号哲学家则相反。按此规定，将是1、2号哲学家竟争1号筷子；3、4号哲学家竞争3号筷子。即五位哲学家都先竟争奇数号筷子，获得后，再去竞争偶数号筷子，最后总会有一位哲学家能获得两只筷子而进餐。
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -172,7 +172,7 @@ int main () {
 - (3) 读者-写者问题
 为实现reader与writer间互斥设置wmutex；表示正在读的线程数readcount是临界资源，为它设置互斥量rmutex。
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -247,7 +247,7 @@ int main () {
 
 ### 4.用Condition Variable实现Semaphore
 
-```
+```c
 #include <pthread.h>
 
 struct sem_t {

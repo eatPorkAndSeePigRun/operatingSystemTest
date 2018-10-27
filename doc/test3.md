@@ -50,7 +50,7 @@
 
 
 *进程创建程序*
-```
+```c
 //-- creation_of_processes.c
 #include <stdio.h>
 #include <unistd.h>
@@ -80,7 +80,7 @@ void main (int argc, char *argv[]) {
 `int filedes [2]；`
 
 *管道通信程序*
-```
+```c
 //-- pipeline_communication_of_processes.c
 #include <stdio.h>
 #include <unistd.h>
@@ -127,7 +127,7 @@ int main () {
 ## 四、实验程序
 
 **1、进程的创建**
-```
+```c
 //-- test_creation.c
 #include <stdio.h>
 
@@ -153,7 +153,7 @@ int main () {
 ![image3.png](../resource/pic/test3/image3.png)
 
 **2、进程的管道通信**
-```
+```c
 //-- test_pipeline_communication.c
 #include <unistd.h>
 #include <stdio.h>

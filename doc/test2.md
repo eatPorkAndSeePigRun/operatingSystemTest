@@ -213,7 +213,7 @@ $(CC) -c $(CCFLAGS) test.c
 
 任务：假设你有两个源文件main.c 和factorial.c 两个源文件，现在要编译生成一个计算阶乘的程序。
 
-```
+```c
 // factorial.c
 int factorial(int n) {
     if (n <= 1)  
@@ -223,7 +223,7 @@ int factorial(int n) {
 }
 
 ```
-```
+```c
 // main.c
 int factorial(int n);
 int main(int argc, char **argy){
